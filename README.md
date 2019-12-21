@@ -1,24 +1,12 @@
-# web
+A Simple VueJS, Vuetify based blog application
 
-## Project setup
-```
-npm install
-```
+Features:
+1. Add Blog Posts
+2. Home page to list all blog posts.
+3. View blog posts.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Setup Notes :
+1. Create a project in firebase console.
+2. Get the JSON config of the project.
+3. Add it to firebaseconfig object in main.ts
+4. npm run serve // To run the application.
